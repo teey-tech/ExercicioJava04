@@ -7,8 +7,8 @@ public class SomaMatriz {
 	public static void main(String[] args) {
 		
 		Random random= new Random();
-		int n1[][]=new int[4][6], n2[][]=new int[4][6], m1[][]= new int[4][6];
-        double m2[][]=new double[4][6];
+		int n1[][]=new int[4][6], n2[][]=new int[4][6], m1[][]= new int[4][6], m2[][]=new int[4][6];
+        
 		
 	    for(int l=0; l<4; l++){
 	        for(int c=0; c<6; c++){
