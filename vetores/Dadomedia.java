@@ -18,7 +18,7 @@ public class Dadomedia {
 				double maiorDado = 0;
 
 				for(i = 0; i < dados.length; i++){	
-					dados[i] = getRandomInt(0,10);
+					dados[i] = getRandomInt(1,7);
 					if(dados[i] > maiorDado){
 						maiorDado = dados[i];	
 					}

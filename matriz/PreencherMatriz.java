@@ -13,9 +13,8 @@ public class PreencherMatriz {
 				
 		System.out.print("Digite os Valores da matriz: \n");
 		
-		for(int l = 0; l < matriz.length; l++) { //linhas
-			
-			for(int c = 0; c < matriz.length; c++) { //colunas
+		for(int l = 0; l < matriz.length; l++) { 
+			for(int c = 0; c < matriz.length; c++) { 
 				matriz[l][c] = entrada.nextDouble();
 				soma = soma + matriz[l][c];
 				somaDiagonal = matriz[0][0]+matriz[1][1]+matriz[2][2];
